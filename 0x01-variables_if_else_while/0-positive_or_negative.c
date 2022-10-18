@@ -6,7 +6,7 @@
 *
 *Discription: Asign rando numbers
 *
-*Return Always 0 (success)
+*Return: Always 0 (success)
 */
 int main(void)
 {
