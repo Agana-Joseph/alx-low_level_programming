@@ -1,4 +1,3 @@
-#include <list.h>
 #include "main.h"
 /**
 *main - Enrty point
