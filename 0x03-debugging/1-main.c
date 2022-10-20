@@ -13,7 +13,7 @@ int main(void)
 	/*
 	 *while (i < 10)
 	 *{
-	 *infinte loop - No increase of variable 
+	 *infinte loop - No increase of variable
 	 *putchar(i);
 	 *}
 	 */
