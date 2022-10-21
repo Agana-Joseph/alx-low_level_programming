@@ -20,7 +20,7 @@ int main(void)
 		}
 		else if (i % 5 == 0 && 1 % 3 != 0)
 		{
-			printf (" Buzz");
+			printf(" Buzz");
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -37,4 +37,5 @@ int main(void)
 	printf('\n');
 
 	return (0);
+	}
 }
