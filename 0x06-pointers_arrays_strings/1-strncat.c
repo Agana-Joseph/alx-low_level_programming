@@ -3,6 +3,7 @@
 /**
 *_strncat - concatinate 2 strings.
 *@dest: first string.
+*@src: second string.
 *@n: the number of bytes to use from src.
 *Return: string.
 */
