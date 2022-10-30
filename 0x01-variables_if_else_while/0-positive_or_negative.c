@@ -4,7 +4,7 @@
 /**
 *main - point Entry
 *
-*Discription: Asign rando numbers
+*Discription: Asign random numbers
 *
 *Return: Always 0 (success)
 */
