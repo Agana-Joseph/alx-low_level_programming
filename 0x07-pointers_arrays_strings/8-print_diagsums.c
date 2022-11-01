@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums - prints sum of #'s in diagnols of
@@ -9,13 +10,18 @@
 
 void print_diagsums(int *a, int size)
 {
-	int dex1, dex2;
+	int i;
+	int sum1, sum2;
 
-	for (dex1 = 0; a[dex1][7]; dex1++)
+	i = 0;
+
+	while (i < size) /*number repetitions*/
 	{
-		for (dex2 = 0; dex2 < 8; dex2++)
-			_putchar(a[dex1][dex2]);
+		/*sums for diagsums*/
+		sum1 = sum1 + *(a + i * size + i);
+		sum2 = sum2 + *(s + i * size + size - i - 1);
 
-		_putchar('\n');
+		i++; /*add +1*/
 	}
+	printf("%i, %i\n", sim1 sum2);
 }
